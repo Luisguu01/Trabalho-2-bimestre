@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>E Benina Ou Benino</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="java.js"></script>
+</head>
+<body>
+
+  <form id="meuFormulario">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" name="nome">
+    </div>
+
+    <div class="form-group">
+      <label for="idade">Idade:</label>
+      <input type="number" class="form-control" id="idade" name="idade">
+    </div>
+
+    <div class="form-group">
+      <label for="genero">Gênero:</label><br>
+      <input type="radio" id="genero1" name="genero" value="Masculino">
+      <label for="genero1">Masculino</label><br>
+      <input type="radio" id="genero2" name="genero" value="Feminino">
+      <label for="genero2">Feminino</label><br>
+      <input type="radio" id="genero3" name="genero" value="Outro">
+      <label for="genero3">Outro</label>
+    </div>
+
+    <div class="form-group">
+      <label for="interesses">Selecione seus interesses:</label><br>
+      <input type="checkbox" id="interesse1" name="interesses" value="Esporte">
+      <label for="interesse1">Esporte</label><br>
+      <input type="checkbox" id="interesse2" name="interesses" value="Música">
+      <label for="interesse2">Música</label><br>
+      <input type="checkbox" id="interesse3" name="interesses" value="Viagem">
+      <label for="interesse3">Viagem</label><br>
+      <input type="checkbox" id="interesse4" name="interesses" value="Leitura">
+      <label for="interesse4">Leitura</label><br>
+      <input type="checkbox" id="interesse5" name="interesses" value="Tecnologia">
+      <label for="interesse5">Tecnologia</label>
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="verificarSelecoes()">Enviar</button>
+  </form>
+</body>
+</html>

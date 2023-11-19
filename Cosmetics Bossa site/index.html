@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cosmetics Bossa</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Pagina inicial</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#produtos">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-4">
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma loja online especializada em oferecer uma variedade de cosméticos de alta qualidade para atender às suas necessidades de beleza e cuidados com a pele. A maior loja revendedora de Wella do Brasil!</p>
+    </section>
+
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEhMSEhAVFRUVFhYWFRUVFRUWFRUVFxcXFhURFRUYHSggGBolHRUVITEiJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0lHSUtLS0tLS0rLS0uLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAN0A5AMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABQMEBgIBB//EAEwQAAEDAgMCCQcIBwcDBQAAAAEAAhEDBBIhMQVBBiIzUWFxcpGxEzJSc4GywSNCYoKSk6HRFCRDU9LT8AcVNERjwuGDovFUo8Pi4//EABoBAAIDAQEAAAAAAAAAAAAAAAADAQIEBQb/xAAzEQACAQICBwcDBAMBAAAAAAAAAQIDESExBBIyUXGhsTNBYYHB0fATFJEFIlLhQtLxFf/aAAwDAQACEQMRAD8A+4oQhACfau1DTdgZExJLtBOgAS9l9UfrVf8AVAHwUO26n6w8cwb0nzQfiihPMfaY8Eic3ex0KVGOprNFirVePn1T9Y/moGX1SdavefzXlz0gfbKotIn8qhS3Nr4/YeqMWsunujSWdy8/Od9YBMaFUukHUaxp0FJdmnr+1KbWvnO6h8Voi74mCtFJuxbQhCuZwSDau2HtqGlSAlsYnEZAkSAJIGhGafrD7XcP0mtMec3zjl5jdANUqrLViadEpKpUs13DKlXe/N1weprvg0BeXNTD+0qf+4fiubB3NP1Who7yEXz3f6nsfHxSr/tubbJT1cl5L0I6V5nylX7Lx8U2tXlwyqu8fwcs/TqPnWv95/ynuz3OjPyn180UpNvENKpxSuvQZW1UukHVupGhnQxuVhU7Pz3/AFfiri0o5clZghCFJUEIQgAQhCABCEIAEIQgAQhCABCzO0dt1PKOZThoaS0ugFxIyMTkAqL673+c97usmO7RZZ6XGLslc209BnJXbsebacf0mr1t9xq5o9Lvwld0xGmSkJ6Ss0p67udCC1IqJXuWg6O+HwVEUc/P71YuylFZyRKeORqppqODNZsuB85veE8tDxz2Rp1r5iKh50z2dcvBycVopaXbBx5mSvoLndqXI+kIWds794HnT1qht/a1ZmEtqBrDxSGiHYszOLmgbo03ytctIio6xzo6HOU9W6NgclgNplxuaxYJl4z+q3QrmnVL83Eu6XEuPeVdt1knpH1bK1joUNG+3bk3fC2Xzod2VRw88nuefDJQbTe12jiOtn5hXKgy1Si8KrObSsNpJSnrFVlMTygHW0fjAWh2Rd0ma12+0QslVKjDkqFVwd0upqq0fqxs3yXsfSLO8p+Ud8oyCBBxDnOX4po14OhnqXzC0cZ1IWgsqzgJxHr39+q2U9Kvg0cnSNAs7xkbFCTbIv3PeWOzyLgd+RAg8+qcrXCamro51Sm6ctVghCFYoCEIQAIQhAAhCEACEIQBhbsfLVvWP94r1q9u+Wresd4oauLPbfF9T0UNhcF0JGqRyjYu3FMiLeZQuylFwU2vCktyVnnma6eRDiTDZ5Sqc0zsDmiGZMsjT2hySzhafkmetHuPTG0OSW8LeSZ6we49a6nZsx0u1RU2cck2oJRs3RN7dJgaKxZqnJJr5OKmmiUX6ZUyFUcxPWKiBUtVRQs5uLtoU/tDkkFmnduck2mZa+I14P8ALu7DveYtIs1wf5Y9h3ixaVdDRtjzOLpvaLggQhC0GQEIQgAQhCABCEIAEIQgDD3nLVu27xQ1F5y9btlehcapts9DT2FwXQ7Yq9TaNNrSTPzo83MtiWgTrnoc1YYuH2TCHSCcQIJLnEkGJGv0QrRvbAm8b/u5CTaG1WNc5pBye1k5RxpAcM/NlrhP0SkVbbVM7nRnnxdAXCQJkjiE5DeE+v8AZdEz8mM5nXjTObvSPGOZ50pq2VNuKGDjCDrpmY/7ikNq5th9LVyZRG02zBDwR5wIHFHF4xg6cdukp7YPzSH9Apz87pOJ0u83JxnMcVvcnVkc1Kt3FKmr3GrsXyEu4V8nT9aPcerthoqPCnk2esHuPWmT/YzHTVqyKez9E/2c1u+POzkxAgRGfPMpFs7RN7ZLpuzGaQrqw5cWRnE56ZicIy6pnuSW+q0g8SGH5RmLiAt8niqYhBEeaWT7N4V9xySHaYT61TDIy6PTxzZDRq0oaX4AZb5SaYzZ5WuXtaGtgPLDSgiNBmIXlOpQI0aHYQOMBhxBtLjAkECePIjUE7wqD1GVmVR2yR0HSTd7v8l5xZxMEaDFGWeFm6c8y7PKcxuTa1dkkFvqnlqclaDuylWNopDjg8T5d3YPi38lp1leD5/WD2HeLVql0NF2PNnE07tFwQIQhaDGCEIQAIQhAAhCEACEIQBiL3l63bKF7e8vW7ZXgXGqbb4s9DT2I8F0O2KR5yUTV2/RWjkRJYiq+Si5TW8eDMEHqSi5WeWZrhkUSc0xstQlhOaY2R0QgawNRY6Klwo5NnrB7j1bsTkqnCjk6frB7j1plsGWHaoq7P0Tm2SfZ+icWyrAbWyLxGSRbSTm5rBjZMnQADUkmA0dJJAWW2jtPC8tqsDPpNcXNA53S1pA+kAW9ITK2VhOjQbbaIHBRFeV72m2Je3PQDjE9QGZXocCJGhWZG+zRNQ1Ti1KS0dU4tTkrRzFVchzwe/xH1HeIWrWS4Pf4j6jvgtaulomx5s4Wn9ouC9QQhC0mIEIQgAQhCABCEIAEIQgDE33L1u2fgvF7fcvW7Z+C8XGqbb4s9BT2I8F0Ogq+0XE4aYJGMmSDBDW5uA6SMp3SpwlG0NoAFzalJr2sJLpEwCB5MtneScJ6ii9kOp03OeHzdzt52Qp27Q8i4VKYI3cUMaBzA5AEdDvYWnVJe7SqxnxOc4SyfbUyHUA4pxcXrhipnybQyRhwtIJDQS0TVxZkwBhiErL6LDTcxtJstJcW4RBgEAHdqcuhLurnQxUVrK7+PoFlcY256jI/nmB4BObE6LOjaE1cOWGcE78UTPNE5da0NiUWxM04tdxp7E5Kpwm5NnrB7j1ZsTkq3Cbk2esHuPTnsmWHaog2fonNuk2z9E4t1WBetkdXgJLC0B2EuyLoziARrmM1mdv4KoHyrWPGbWmoB3EHKRo4bjnIkJne2sufhdhMyw58VzgG1DzZgd5JSO/t8Dn4fMfMA4hhaWink2YJEaq02y2jwirNPH5hz/Kfg2pp7OqTEtbiz85vG5zhptbj+sY6ExtKQp/J4wTqBAaQOyN09CqNfU+TPFlgLRxXZggAmJncNJ8Fx5M4/Kl/Gxh0YIlsBmAEmYh3eEo3SvLBsc09U2tSlDNU0tSpRkqZDvg9/iPqO+C1yx3B7/EDsuWxXR0Ts/NnC/UO1XBeoIQhajCCEIQAIQhAAhCEACEIQBiL3l63bKEXvL1u2V4Fxqm2+LPQ09iPBdDoKvXtpk43Z7py6ArAXhQie8RX1l/qO6yZOsz8EkubL6Z/r+t8rS3iTXSS2zWpyshH+jHTEYkHMbwQco6k7sUtOqY2J0Qnchu5pbA5KHhLybfWD3XqWxKi4Scm31g916e9lmePaIg2dom9ulOztE2oKIk1S0dEm2gU4OiTbQTKmQujtCxxUblI5cOWc1njUxtilzVftipRM8h7wdP6y3su8FsVi+Dp/WW9TvAraLpaH2fmzg/qParh6sEIQtRgBCEIAEIQgAQhCABCEIAxF9y9btleBe3vL1u2VUvowjF5uJuPszv6JieiVxqm2+LPRUleEV4LoTtqtJgOBPMCJUj0rualBzS1hpufHEFPCXB3zSMOYzjNMnHJVWQyULb/MW3qT3ScXiT3SU8xyyFR1TKy3JedVfs1KIZo7ErjhFybfWD3Xr2wXHCHkmesHuuTv8AETHbRBa1cDJgnQADUkmABPOSEwp1qgzNJsDM4akujoBYAT0Sl1uzEyMWEy0gnMBwILZGUiQMlafXcJa6pTZlmQHF0byAYAPSZ9qIl5K+FuvoNscgEHIifYld+mQADQBoAAOqMkrv1epkJpZi0rhykKjckGo5bqr1uqIV23KC0h5wcP6yzqd7pW1WI4OH9Zp9TvdK266Wh7D4nB/Uu1XD1YIQhaznghCEACEIQAIQhAAhCEAYi95et2yoKzy3DG9wHfP5R7VNe8vW7ZUF02WkYMenFBA36ySIjVcaptviz0VLYjfcuhDdgta97ajm4WkhvEiQNM2zn1q245JcKJJB8lUdBkB9bGAdxhzyEweqDZJKy9vRvqL7tJ7pOLxKLlLeY1ZCx2qvWaou1V20UohmisSuOEPJN9YPdcvLHcjhByTfWD3XJ3cxSX70QUmEsyEkFrgOfC4OiTzwr4uXEENpPxHKHANAPO5xMR1T7VSthLDAJy0a7C72OkR3qxRdTJDXVKrXHINfVqtJPM04od7CURLzt3jBjcLGt1hoE9QiVQvUycMkrvlM8hNLMXFeOXRUtjbiq4gmABJjXoAS4xcnZZj5yUE5MqK1QIG9N6VrRbpSB6X4nfgXR+CYULljfNwt7NOmPAp60d97XX2ES0rDCL6dLlTg7/iWHtZ7vMcttiHOs4Np/SqHqy+C8dfO3F/f/wABaqLjSja9znaTCdeala2Fub8FvNJjHOO9eYxzhZh99U539/8A9lWde1J1f3n+JM+4W4StCk+82GMc4XuIc4WNFzU9N32nKVt3U/eO+05H11uJ+ylvNbiHOullmXr/AEne15/hU7L2p6Y/D4tVlWiLeizRokJJTvn+k3vHwAVmnfHeR7Mx4lXU0xboyQyQq9O4BGeSFNxeqzHXnL1u27xUNwGFp8pGHUkmAI0M7utS3XL1vWO8VHWYXCAQDIIJbi06Fx6m2z0VLCMeC6FJlR0/JFzumr5kb4eeOeuHBNBbkxmM9PtBsfiEreapfgbUblBeTTyAOjRxs3GD1e0J0wOhsEDLKWnDxHOcJdpMg+wopRTePz5l5ltIk0k01z54ed7Cm5t5bixAcUOgh0wXYBo070sv7RzZzBgxkHTIdhMAgb9+hTm7pktccgA2IwugBobViZyMnfqZCXX9N5cWFwxuNSIa7EQ173ZOnLjNdAz1R9Nbu5fn88CFUe/C/LPdxM64Zq7aKC5oljodIMNJBkEYgHQQd+amtUpIde4+sijb3JM9YPdcuLMrrbvJs9YPdemdzKLbXEjtamFhdxch852FvtdBgKUPpukVbmm5pGbBUa2nHM7OXe0x0LiyeGtlxAAEkkgADpJXVO8o1XSatPybdAXsAe+fOgnMNjLdJJ3AoiXs87Piv+GitBSws8zITugtxDL2DToJVK6IYHCKZd5OoRIpv42LiQTOcTkrtB7MLDLCJJMmnBHzZnjEaaZKncPpBsDDmBAcGb21zhe4glonyYxDOcO5aJbJz4O0nm8b9RftF1HC/DgyDhIbTa4HFbwGgHj8XypDiZ84ZQlXB+tNSrGgDNcsiX6xOeScPqU8VMh1IMFWmaoPk5c35EgiRJaIfOH6UrLOqBr6LaeIB1NrKgc5rn4vK1jL3Na3jAOBBjQgJadp62GG754j1G9PVx+Y4+OGHHea91yz5zhl1Ad8oG06A+ez7xv5JJQ2TS3sk9OaY0bGmNKbe4KZVZeBVU4LO5bG2KPp0/tOPgEHblH02fZqleNt2egO4L00W+iO4KPqTJ1KW5/lENThBQ9Nv3Tj8FTrbfo7qjfuT+St1KLfRH4KpUot9Efgoc57y8Y0+5Pl7EP9/Uv3rfuT+SkZt6l+9b91/wAKN1Bp+aPwXP6I30Qq68i+rDd09i9T2zT/AHrPsD8lbpbWp/vqX2W/kk42e3mC7bsxvoqfqTIcIP4vY0FLaLTpVpHqDQmFKs13zh+HwWWbslnoqxS2U0aEjqTY1pruM9ShTeTt5I19I69fwC8XWyLIMpNkucSA4kneQMh0LxdCN7HHlOCk0Zm75at6x3iq126Gk4wzTjESB7JCsXfLVvWO8VyFyam0zvUtmPBdBTQeGCBc0zJkktlzid5OP/xCtXG1mtJYWOJaC0kM+aQd85jjHRWyV45LTaHycZO8l09EhTebaxEtOInNplushrDOf0Gn2SlNxt4OzwOJOMyaYkB+IuGunGdl0p7dJXcI13fMso07bPP+ig8zHQAB1NAAHcArNsoHBT26hEMc2a925ybO2PdcubQr3bfJt7Y91yYsmLW0uJ7ZAluUTGRIke0SJ71cZTrenS+7f/NVbZuiaNURCbs/6Kle3eTPliMhk0ACd5Gf4Jdd2z/37tBuG6JOsZxzb07el92rSyIpyd/6QgfZPJ5epEkxplM4ddNyrFkVaQkmHMEnU5jMps5LX8tT7bfEKizQ6cm1j49B/R3K7TVKjoFxc3T2S9pBaxwa5mWhAOMnUZmPgUxmaMXLBDdq8cqWzNoGqTxYG4iSMtQXaT0ZHVWbsnCcOvQJPSQN5iVBDi09VnFRU6y8c7MYDUOeeIPw4d84hl7IzhSXFFwmRECTppxc/wDub3oLO0XiVguwV0bRw1w5FwPHZkW+dOeULlzC0wRB/Ilp/EHuRZkqSfeSNKlYVA0qZhUElmmVcpFUqSuUVeIqRqrTk2dhvgF4vbTk2dhvgELsRyR52e0zG3XLVvWP8V4i65at6x/vFRXBOF2HzoMRGu7VcWptPiz0tPZjwXQlXD1SuKlXLCIzqZkA54h5PL0YJnQ5DMKO5Y7E6GPidWvDQct+9KHKF8385HVyltdFdjiCMNXn8/PKYExMZqhcMdM4X5yfOyBOoUWG6nj09zp4U1BLDTMniu9pymf+AV1TpO9B+vpj+v8AwFaxGqt/T3NPaLrbXJs7Y91y4syutsn5NvbHg5X7hC2kTbO0V9lwyJxCMvbIDhHPkZVHZuisNsGwBmYwkTBgtbgDtNcOSIkTtfEkq3IGjXOBEgtEgg8x7u9Lbu51+Tfl9H+uZMatq0gDMAADIxkNNEvubNumff8Akpdwp6ov/SJMeTeOktgJb5YmtS4jh8oBnuzEH2pi6xYJy1EHM9H5D+ilv6O0V6RjR7N53EKsc0Pm1Z23ehpqGgVLBXxTLj5w0c3L5swONvlXaGgVtitJYmaE9XuKTXVjh+aGuLoAc7EC6cGggBpc0a7jCv3nmGCBGckwMiDBO4GI9qlaVHcRhMkjLUa+wIIcrtYCupUa9wgAGZnHTJIG4BrjM6dRKbVqb3EtOEzAIOIZPIyB1IBbPelzTUJGUs3ueMDojcBr7Q1U37VrzPkSCHTIDQSWgkGQ3Pmz5yiMksy1Sm52UbYeI2AqZOBbLsTxk4Z1fJkxORHHH4hQ1Wl4LgQWjFmA6Mjj35/tIHUlI2pVEDybhk3QEkcVmQIbqMA+xzkTzU2lVy+ROYJyaAAXDNuTYE4G5q2srfPD2IVGeeHLx9xi1TMKXWVw95OKmWjnJ7soV1zy0SBPQqF2nkXaauUUpo3RP7N27xTairRYqasa6y5NnZb4BC8s+TZ2W+AQuysjzksZMxFyflavrH+8ULyvylX1j/eK9XEqbT4npaewuCBcOXa5cljCnXCW1wmVdLq4QXKLgpqIXLgpaIzUlWxlao2zybPWD3XItkbW5NvbHuuVmsCq2kWNm6JmEt2bomIUxK1Mzx6o3CuvVKupZEMxdVSl3L0u23xTeoErcPlqfbb4qsc0Olk+DHtDQKVt6wOwkmRO7LLX4d4UduMgphaMLsRGfPLuaNJ/qBzK0sxEbd5PQumP0dvgbpyn+updV4wmQSIzABJPUAo6VoxpkNg+1S1Gggg5goIdr4CikxpfiwPbuaC14AG9zt0np0y3yq9W6fzMPSHgCRrz6Zd6am1YDIaAfaqlW1ZpgbGug1OqoaNZN/PcoC6d6LNfSCP0l0xhb9sTl0Kx+jM9Ed39cw7gvTbNPzR3KcSHKG75+SNldxnCwGNwcDP5b1ND3ghzAMxqZB7tNy7pUWtmABOqmaixXWtkjiyty1wOBoyIyJ8O5OqCo01eoK0VYpOTeLNba+Yzst8AvV5a+Yzst8AvV2TzLzMBcVgyrUY7Jwe6QeuQeoiD7V2K7ecLZbS2Pb3EGtRY8jQkcYdTtQlVTgXZnRlRvZr1h+BdCwT0STd42OvS06Gqk0/K3uhJ5Uc64c8c6cHgJbbqtwOqrPiConcAqJ0urofXpnxppa0So935/oZ/6FHe/wAf2Ia7xzhL69RvpBat39n1A63Nz9ql/LUZ/s2tjrcXJ+vT/lqfs6ngSv1Gj3X/AAY11ZnpBd0rpnpBbBv9mlkNX3DuuqB7rQp6X9ndgP2dQ9der8HBT9nPwI+/p7ny9zLUL6mPnhe3l9SeA0PBOIGJ5gZ8R3rbUuBOz2/5Vp7Tqj/ecUwOxbY0xSNvS8mMwzybMIPOBGR6Vf7SW9FF+oU009V9Pcw9hVaBqr4rt50+PBezd/lwOy57fdIXJ4H2Z/ZOHVVrD/eqfaT7mufsNen6O3jrLyX+widXbzhUq1Qc4WnPA6y/dP8Avq/8aH8C7IiPIuHSKtYHvxoeiVPD55ErT9GWWt+F/sYuq9vpBKvKtNamMWeNvivoY4BWP7t5661Y/wC9e0+Auz2ua8W3GaQQfK1iQRoc3ojoc74tFpfqVCzSUn5RXqzO27VbYE2fwQbMsuKjRzEMcPAFQjgtW3Xg9tAH/eFWVCou4THTKNtrkymEOUz9gXDdbth/6BH/AMqpmxr5/Lsy/wBE/wAxEqFSOa6F/uqP8uT9jx6gqMXNVlUftGH/AKZ/jURp1T+0Z92f41T6M3ki60uj/Lk/Y6LF5C9FjVP7Vn3R/jUn90Vj+3Z9yf5iutHqPJdCHpdH+XJ+xEApGDpXX9yVT/mG/cn+YpKewq3/AKlv3J/mKftqu7miPu6P8uT9jqmOlXKCkocFax/zjfuP/wBFft+DJB41y5w3gMDZ9slEaFTcUlpdHfyY8t/Mb2R4L1SMbAhC6RxWj//Z" class="card-img-top" alt="Produto 1">
+            <div class="card-body">
+              <h5 class="card-title">Kit Wella Proffesional Invigo</h5>
+              <p class="card-text">Shampoo 1 litro + Condicionador 1 litro + Mascara 500ml</p>
+              <a href="#" class="btn btn-primary">Ver Detalhes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8SZpgI0L8hMgk5mFt2GF8DaOjLdi59l_owA&usqp=CAU" class="card-img-top" alt="Produto 2">
+            <div class="card-body">
+              <h5 class="card-title">Kit Wella Invigo Nutri Enrich Frizz Control</h5>
+              <p class="card-text">Shampoo 250ml + Condicionador 200ml + Máscara 150ml + Leave-in 150ml.</p>
+              <a href="#" class="btn btn-primary">Ver Detalhes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://static3.tcdn.com.br/img/img_prod/488151/kit_wella_invido_color_brilliant_shampoo_e_condicionador_5633_1_20200812180245.png" class="card-img-top" alt="Produto 2">
+              <div class="card-body">
+                <h5 class="card-title">Kit Shampoo e Condicionador</h5>
+                <p class="card-text">Wella Invigo Color Brilliance.</p>
+                <a href="#" class="btn btn-primary">Ver Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://wella.vteximg.com.br/arquivos/ids/155395-1000-1000/KIT10_1.png?v=637647366733230000" class="card-img-top" alt="Produto 2">
+              <div class="card-body">
+                <h5 class="card-title">Kit Wella Professionals</h5>
+                <p class="card-text">Invigo Volume Boost Duo (2 Produtos).</p>
+                <a href="#" class="btn btn-primary">Ver Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://lojasrede.vtexassets.com/arquivos/ids/345850/2022100425-1-Kit-Wella-Professionals-Color-Motion.jpg?v=638169920050730000" class="card-img-top" alt="Produto 2">
+              <div class="card-body">
+                <h5 class="card-title">Kit Wella Professionals Color Motion</h5>
+                <p class="card-text"> 1 Shampoo Wella Professionals Color Motion 1L; 1 Condicionador Wella Professionals Color Motion 1L; 1 Shampoo Wella Professionals Color Motion 250ml; 1 Condicionador Wella Professionals Color Motion 200ml.</p>
+                <a href="#" class="btn btn-primary">Ver Detalhes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://vivastore.com.br/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/k/i/kit-wella-sp-luxe-oil-3-produtos1-41b823dc3a6a48b12b15756442363314-640-0.jpg" class="card-img-top" alt="Produto 2">
+              <div class="card-body">
+                <h5 class="card-title">Wella SP Luxe Oil - Óleo 100ml</h5>
+                <p class="card-text">Wella Sp Luxe Oil Shampoo 200ml + Máscara 150ml (Gratis Oleo Elixir Reconstrutor SP 100ml).</p>
+                <a href="#" class="btn btn-primary">Ver Detalhes</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <p>Para dúvidas, sugestões ou informações adicionais, entre em contato conosco:</p>
+      <p>Email: CosmeticsBossa@gmail.com</p>
+      <p>Telefone: (43) 9000-9009</p>
+    </section>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
